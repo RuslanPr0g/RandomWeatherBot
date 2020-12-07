@@ -14,6 +14,8 @@ namespace RandWeatherBot.Models
                 return client;
             }
 
+            // todo: 
+
             client = new TelegramBotClient(AppSettings.Key);
             await client.SetWebhookAsync("");
 
